@@ -1,0 +1,20 @@
+.about {
+    background-color: mediumaquamarine;
+    color: mintcream;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.feature {
+    color: black;
+    padding-bottom: 10px;
+}
+.featureicon {
+    margin-right: 10px;
+}
+.founderimage {
+    width: 100%;
+}
+.founderdiv {
+    padding-top: 15%;
+}

@@ -1,0 +1,44 @@
+body {
+  background-color: mintcream !important;
+  text-align: center center;
+}
+.homecon {
+  margin-top: 100px;
+}
+.webchat {
+  margin-bottom: 60px;
+  text-align: center;
+  background-color: mediumaquamarine;
+  color: mintcream;
+  border: 5px solid black;
+  text-shadow: 5px 5px 5px black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+.letstalk {
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: mediumaquamarine;
+  color: mintcream;
+  border: 5px solid black;
+  text-shadow: 5px 5px 5px black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+} 
+.getstr {
+  border: 5px solid black !important;
+  text-shadow: 5px 5px 5px black;
+	color: mintcream;
+  background-color: mediumaquamarine !important;
+  margin-bottom: 50px;
+  width: 100%;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 20px !important;  
+}
+.getstr:hover {
+	background-color: mintcream !important;
+	color: mediumaquamarine !important;
+}

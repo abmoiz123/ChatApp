@@ -1,0 +1,26 @@
+.contact {
+    background-color: mediumaquamarine;
+    text-align: center;
+    color: black;
+}
+.signhd {
+    border: 2px solid black;
+    background-color: mintcream;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: mediumaquamarine;
+    text-shadow: 5px 5px 5px black;
+}
+.contactdep {
+    text-align: left;
+}
+.cfont {
+    color: mintcream;
+    width: 40px;
+}
+.foot {
+    margin-top: 20px;
+    background-color: mintcream;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

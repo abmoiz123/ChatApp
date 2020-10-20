@@ -1,0 +1,797 @@
+
+@media only screen and (min-width: 768px) {
+    .chatCon12 {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .chatCol12 {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .viewChatBoard {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/aec89173426833.5c08f56351139.png");
+        backface-visibility: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-left: 1px solid #ededed;
+        max-height: 100vh;
+        min-height: 100vh;
+        border-radius: 10px;
+        padding: 0;
+    }
+    .Bkbtn {
+        display: none !important;
+    }
+    .viewAvatarItem{
+        margin-left: 20px;
+        background-image: url('../../Images/nopic.png');
+    }
+
+    .headerChatBoard {
+        border-bottom: 1px solid #e8e8e8;
+        padding: 5px;
+        display: flex;
+        background-color: mediumaquamarine;
+        
+    }
+    .aboutme{
+        padding-top: 20px;
+        margin-left: 80px;
+        
+        align-items: center;
+        display: flex;
+        position: absolute;
+    }
+    .textHeaderChatBoard {
+        font-weight: bold;
+        color: #203152;
+        margin-left: 10px;
+        
+    }
+
+    .viewListContentChat {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .viewListContentChat::-webkit-scrollbar-track {
+        padding: 2px 0;
+    }
+
+    .viewListContentChat::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    .viewListContentChat::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+    }
+
+    .viewBottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        background-color: mediumaquamarine;
+    }
+    .emojidiv {
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .icOpenGallery {
+        background-color: mediumaquamarine !important;
+        border: none !important;
+        font-size: x-large !important;
+        /* width: 30px;
+        height: 30px;
+        margin-left: 10px; */
+    }
+
+    .viewInputGallery {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+        left: 10px;
+        width: 30px;
+    }
+
+    .icOpenSticker {
+        font-size: x-large !important;
+        background-color: mediumaquamarine !important;
+        border: none !important;
+        /* width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px; */
+    }
+
+    .icSend {
+        font-size: x-large !important;
+        background-color: mediumaquamarine !important;
+        border: none !important;
+        /* width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 30px; */
+    }
+    .viewInput {
+        padding: 15px;
+        flex: 1;
+        border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 0px;
+        height: 50px;
+
+    }
+
+    .viewInput:focus {
+        outline: 0;
+    }
+
+    input::placeholder {
+        color: rgb(199, 199, 199);
+    }
+
+
+    .viewItemRight {
+        width: 100%;
+        height: auto;
+        background-color: mediumaquamarine;
+        align-self: flex-end;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+        color: black;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: 0 5px 5px #808888;
+    }
+
+    .viewItemRight2 {
+        width: 100%;
+        height: auto;
+        background-color: #e1f3fb;
+        align-self: flex-end;
+        /* margin-bottom: 10px; */
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+        color: #203152;
+        text-align: left;
+        box-shadow: 0 5px 5px #808888;
+    }
+
+    .viewItemRight3 {
+        width: 100%;
+        height: auto;
+        align-self: flex-end;
+        /* margin-bottom: 10px; */
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+        text-align: left;
+    
+    }
+
+    .viewWrapItemLeft {
+        width: 40%;
+        text-align: left;
+        align-self: flex-start;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    
+    }
+
+    .viewWrapItemRight {
+        width: 40%;
+        text-align: right;
+        align-self: flex-end;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    
+    }
+    /* .viewWrapItemLeft2 {
+        width: 40%;
+        align-self: flex-start;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+        
+    } */
+
+    /* .viewWrapItemRight2 {
+        width: 300px;
+        align-self: flex-start;
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+        
+    } */
+    .viewWrapItemLeft3 {
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        margin-bottom: -15px; 
+    }
+
+    .viewWrapItemRight3 {
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        margin-bottom: -15px; 
+    }
+    .viewItemLeft {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #303030;
+        box-shadow: 0 5px 5px #808888;
+    }
+
+    .viewItemLeft2 {
+        width: 100%;
+        height: auto;
+        background-color: #203152;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        color: white;
+        box-shadow: 0 5px 5px #808888;
+    }
+
+    .viewItemLeft3 {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        color: white;
+        
+    }
+    /* .time{
+        display:flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 400px;
+        font: italic small-caps bold 15px/30px Georgia, serif;
+        width: 110px;
+        background-color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 10px;
+
+    } */
+    /* .timesetup{
+        align-items: center;
+    } */
+
+    .peerAvatarLeft {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-right: 12px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        align-self: flex-end;
+        
+    }
+    .viewPaddingLeft {
+        width: 50px;
+    }
+    
+    .viewPaddingRight {
+        width: 50px;
+    }
+
+    .textContentItem {
+        font-size: 16px;
+        word-break: break-all;
+    }
+
+    .viewListContentChat div:last-child {
+        margin-bottom: 10px;
+    }
+
+
+    .imgItemRight {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .imgItemLeft {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .textTimeLeft {
+        color: black;
+        font-size: 12px;
+        font-style: italic;
+        margin-left: 43px;
+    }
+
+    .textTimeRight {
+        color: black;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .viewStickers {
+        display: block;
+        border-top: 1px solid #e8e8e8;
+        height: 100px;
+        align-items: center;
+        justify-content: space-around;
+        overflow-x: scroll;
+    }
+    .viewStickers::-webkit-scrollbar-track {
+        padding: 2px 0;
+    }
+
+    .viewStickers::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    .viewStickers::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+    }
+
+    .imgSticker {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+
+    .viewWrapSayHi {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+
+    .textSayHi {
+        color: #808888;
+        font-size: 14px;
+    }
+
+    .imgWaveHand {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .chatCon12 {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .chatCol12 {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .viewChatBoard {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/aec89173426833.5c08f56351139.png");
+        backface-visibility: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 100vh;
+        min-height: 100vh;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .viewAvatarItem{
+        margin-left: 10px;
+        background-image: url('../../Images/nopic.png');
+    }
+    
+    .headerChatBoard {
+        border-bottom: 1px solid mintcream;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        background-color: mediumaquamarine;
+        
+    }
+    .aboutme{
+        padding-top: 20px;
+        margin-left: 70px;
+        
+        align-items: center;
+        display: flex;
+        position: absolute;
+    }
+    .textHeaderChatBoard {
+        font-weight: bold;
+        color: black;
+        margin-left: 10px;
+        
+    }
+    .viewListContentChat {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding-top: 10px;
+        /* padding-bottom: 20px; */
+    }
+    
+    .viewListContentChat::-webkit-scrollbar-track {
+        padding: 2px 0;
+    }
+    
+    .viewListContentChat::-webkit-scrollbar {
+        width: 15px;
+    }
+    
+    .viewListContentChat::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+    }
+    
+    .viewBottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+        background-color: mediumaquamarine;
+    }
+    .emojidiv {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .icOpenGallery {
+        background-color: mediumaquamarine !important;
+        border: none !important;
+        /* width: 30px;
+        height: 30px;
+        margin-left: 10px; */
+    }
+    
+    .viewInputGallery {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+        left: 10px;
+        width: 30px;
+    }
+    
+    .icOpenSticker {
+        background-color: mediumaquamarine !important;
+        border: none !important;
+        /* width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px; */
+    }
+    
+    .icSend {
+        background-color: mediumaquamarine !important;
+        border: none !important;
+        /* width: 30px;
+        height: 30px; */
+        /* margin-left: 5px;
+        margin-right: 30px; */
+    }
+    
+    .viewInput {
+        padding: 15px;
+        flex: 1;
+        border-radius: 30px;
+        border: 0px;
+        height: 50px;
+    
+    }
+    
+    .viewInput:focus {
+        outline: 0;
+    }
+    
+    input::placeholder {
+        color: gray !important;
+    }
+    
+    .viewItemRight {
+        width: 100%;
+        height: auto;
+        background-color: mediumaquamarine;
+        align-self: flex-end;
+        float: right;
+        /* margin-right: 10px; */
+        /* margin-left: 30%;
+        margin-top: 10px; */
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+        color: black;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: 0 5px 5px #808888;
+    }
+    
+    .viewItemRight2 {
+        width: 100%;
+        height: auto;
+        background-color: mintcream;
+        align-self: flex-end;
+        /* margin-right: 30%;
+        margin-top: 10px; */
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+        color: #203152;
+        text-align: left;
+        box-shadow: 0 5px 5px #808888;
+    }
+    
+    .viewItemRight3 {
+        width: auto;
+        height: auto;
+        align-self: flex-end;
+        /* margin-right: 30%;
+        margin-top: 10px; */
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+        /* text-align: left !important; */
+    }
+    
+    .viewWrapItemLeft {
+        width: 70%;
+        text-align: left;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+    
+    .viewWrapItemRight {
+        width: 60%;
+        text-align: right;
+        align-self: flex-end;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    
+    }   
+    .viewWrapItemRight3 {
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        margin-bottom: -15px; 
+    }
+    .viewWrapItemLeft2 {
+        width: auto;
+        align-self: flex-start;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        /* margin-bottom: -15px; */
+        
+    }
+    
+    .viewWrapItemLeft3 {
+        flex-direction: row;
+        display: flex;
+        width: auto;
+        margin-bottom: -15px;
+    }
+    
+    .viewItemLeft {
+        width: 100%;
+        height: auto;
+        /* margin-right: 30%; */
+        background-color: mintcream;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+        box-shadow: 0 5px 5px #808888;
+    }
+    
+    .viewItemLeft2 {
+        width: 100%;
+        height: auto;
+        background-color: #203152;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        color: mintcream;
+        box-shadow: 0 5px 5px #808888;
+    }
+    
+    .viewItemLeft3 {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        color: mintcream;
+        
+    }
+    
+    .peerAvatarLeft {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        align-self: flex-end;
+        
+    }
+    
+    .viewPaddingLeft {
+        width: 43px;
+    }
+    
+    
+    .textContentItem {
+        font-size: 16px;
+        word-break: break-all;
+    }
+    
+    .viewListContentChat div:last-child {
+        margin-bottom: 10px;
+    }
+    
+    
+    .imgItemRight {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+    }
+    
+    .imgItemLeft {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+    }
+    
+    .textTimeLeft {
+        color: black;
+        font-size: 12px;
+        font-style: italic;
+        margin-left: 30px;
+    }
+    .textTimeRight {
+        color: black;
+        font-size: 12px;
+        font-style: italic;
+        margin-left: 50px;
+    }
+    
+    
+    .viewStickers {
+        display: block;
+        border-top: 1px solid #e8e8e8;
+        height: auto;
+        align-items: center;
+        justify-content: space-around;
+        overflow-x: scroll;
+    }
+    .viewStickers::-webkit-scrollbar-track {
+        padding: 2px 0;
+    }
+    
+    .viewStickers::-webkit-scrollbar {
+        width: 15px;
+    }
+    
+    .viewStickers::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+    }
+    
+    .imgSticker {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    
+    
+    .viewWrapSayHi {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+    
+    .textSayHi {
+        color: #808888;
+        font-size: 14px;
+    }
+    
+    .imgWaveHand {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+}

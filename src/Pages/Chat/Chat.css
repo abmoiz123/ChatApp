@@ -1,0 +1,532 @@
+/* .root {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  
+}
+
+.header {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #1ebea5;
+    padding: 25px;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewLoading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logout {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    cursor: pointer;
+    color:black;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 5px 5px #808888;
+}
+
+.ProfilePicture {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../Images/nopic.png);
+    left:10px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+.viewCoverScreen {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewWrapTextDialogConfirmLogout {
+    width: 400px;
+    height: 50px;
+    background-color: #d86c5a;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.titleDialogConfirmLogout {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btnYes {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: #c5787b;
+    border: 0px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.notificationpragraph{
+    right:0;
+    bottom:0;
+}
+.newmessages{
+    font-size: 8px
+    ;
+}
+
+.btnNo {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #94c043;
+    border: 0px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.viewListUser {
+    max-height: 100vh;
+    min-height: 90vh;
+    height: auto;
+    width: 50vh;
+   
+}
+
+.viewListUser::-webkit-scrollbar-track {
+    padding: 2px 0;
+    background-color: #ffffff;
+}
+
+.viewListUser::-webkit-scrollbar {
+    width: 6px;
+}
+
+.viewListUser::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #9999;
+}
+
+.viewWrapItem {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220,220,220);
+  
+}
+
+.viewWrapItemNotification {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #1de9b6;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220,220,220);
+  
+}
+
+.viewWrapItemFocused {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.viewAvatarItem {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-image: url(../../Images/nopic.png)
+
+}
+
+.viewWrapContentItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 15px;
+    color: #203152;
+    word-wrap: break-word;
+}
+
+.textItem {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: auto;
+    text-align: left;
+    font-size: 14px;
+}
+
+.viewBoard {
+    display: flex;
+    flex: 1;
+    max-height: 90vh;
+}
+
+    .rootsearchbar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    margin-bottom: 10px; 
+    background-color: lightskyblue;
+    }
+
+
+    .input-icons i { 
+        position: absolute; 
+    }
+    
+    .input-icons { 
+        width: 100%; 
+    
+    } 
+    
+    .profileviewleftside{
+    padding:10px;
+    width: 100%; 
+    background-color:  lightsteelblue;
+    height: 64px;
+    position: relative;
+    margin-top: 0;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .icon {
+    padding: 10px;
+    background: rgb(148, 167, 185);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+  
+  .input-field {
+    width: 100%;
+   
+    border-radius: 10px;
+    
+    border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+    
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  } */
+/* .chatcon {
+    margin: 0px !important;
+    padding: 0px !important;
+}  */
+.chatCol {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.chatbody {
+    display: flex;
+    flex-direction: column;
+}
+.userinfo {
+    background-color: mediumaquamarine;
+}
+.profilepic2 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.ProfilePicture {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../Images/nopic.png);
+    /* left:10px;
+    position: absolute;
+    top: 10px; */
+    cursor: pointer;
+    border-radius: 50px;
+}
+.currentUN {
+    position: relative;
+    top: 3px;
+    padding-left: 15px;
+    color: black;
+    font-size: 20px;
+}
+.Logout {
+    border: none !important;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    color:black;
+    background-color: mediumaquamarine !important;
+    box-shadow: 0 5px 5px #808888;
+}
+.profileviewleftside{
+    /* padding:10px; */
+    width: 100%; 
+    background-color:  mediumaquamarine !important;
+    position: relative;
+    margin-top: 0;
+}
+.searchbtn {
+    display: inline-block;
+    background-color: mediumaquamarine !important;
+    border: none !important;
+}
+.viewAvatarItem {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-image: url(../../Images/nopic.png)
+
+}
+.viewWrapItem {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: mintcream;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220,220,220);
+  
+} 
+.viewWrapContentItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 15px;
+    color: black;
+    word-wrap: break-word;
+}
+.textItem {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: auto;
+    text-align: left;
+    font-size: 14px;
+}
+.viewWrapItemNotification {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #1de9b6;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220,220,220);
+  
+}
+.notificationpragraph{
+    right:0;
+    bottom:0;
+}
+.viewWrapItemNotification {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #1de9b6;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220,220,220);
+  
+}
+.newmessages{
+    font-size: 8px;
+}
+.viewBoard {
+    /* display: flex;
+    flex: 1;
+    max-height: 90vh; */
+    display: block;
+}
+.viewBoard2 {
+    display: none;
+}
+
+.titleDialogConfirmLogout {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.viewLoading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirmlog {
+    text-align: center;
+    padding: 10px;
+    background-color: brown;
+}
+.dialog1 {
+    text-align: center;
+}
+.btnyes {
+    background-color: mediumaquamarine !important;
+    margin: 10px;
+    border: none !important;
+}
+.btnno {
+    background-color: red !important;
+    margin: 10px;
+    border: none !important;
+
+}
+.viewWrapItemFocused {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 100%;
+    /* max-width:44vh;
+    min-width:44vh; */
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.viewWrapItem {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 100%;
+    /* max-width:44vh;
+    min-width:44vh; */
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220,220,220);
+  
+}
+@media only screen and (min-width: 768px) {
+    .mobilecol {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .chatCol {
+        display: none;
+    }
+    .mobchatCol {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block;
+    }
+    .mobilecol {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: block;
+    }
+    .viewBoard {
+        display: none;
+    }
+    .viewBoard2 {
+        display: block;
+    }
+    
+    .Bkbtn {
+        z-index: 1;
+        position: fixed !important;
+        top: 5px;
+        right: 10px !important;
+        font-size: 20px !important;
+        border: none !important;
+        background-color: mediumaquamarine !important;
+    }
+    .confirmlog {
+        text-align: center;
+        padding: 10px;
+        background-color: brown;
+    }
+    .btnyes {
+        width: 50%;
+        background-color: mediumaquamarine !important;
+        margin: 0;
+        border: none !important;
+        margin-bottom: 10px;
+    }
+    .btnno {
+        width: 50%;
+        background-color: red !important;
+        margin: 0;
+        border: none !important;
+        margin-bottom: 10px;
+    }
+}
